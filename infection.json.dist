@@ -1,0 +1,17 @@
+{
+    "source": {
+        "directories": [
+            "src"
+        ]
+    },
+    "logs": {
+        "text": "infection.log",
+        "stryker": {
+            "badge": "master"
+        }
+    },
+    "mutators": {
+        "@default": true,
+        "@function_signature": false
+    }
+}
